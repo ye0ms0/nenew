@@ -1,0 +1,72 @@
+
+/* 폰트 */
+
+
+h2 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color:#2C68D2;
+    line-height: 1;
+}
+
+
+.blog h2 {
+    font-size: 5.5rem
+}
+
+h3 {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    color:#2C68D2;
+}
+
+.theme-parks-header h3 {
+    font-size: 42px;
+    color: #fff;
+}
+
+.events h3 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: left;
+}
+
+.contents-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 120%;
+    color:#2C68D2;
+}
+
+.resort .contents-title{
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+
+}
+.article {
+    font-size: 20px;
+    white-space: normal;
+}
+
+.blog .article {
+    font-size: 28px;
+    line-height: 120%;
+}
+
+.description {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* text-align: center;
+
+h1:로고
+h2 섹션 타이틀
+h3 52짜리 하나만 42
+콘텐츠 타이틀: 28짜리
+article 타이틀 소개
+description: 설명 16px
+*/

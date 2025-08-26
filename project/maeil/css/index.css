@@ -1,0 +1,147 @@
+body {
+        background: yellowgreen;
+}
+.wrap {
+    width: 100%;
+}
+
+.section-box {
+    width: 100%;
+    padding: 120px 152px;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    width: 100%;
+    background: olive;
+}
+
+/*header*/
+
+header {
+    width: 1920px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 99999;
+}
+
+.header-wrap {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+}
+
+h1 {
+    width: 96px;
+    height: 80px;
+    align-content: center;
+}
+
+.gnb-left, .gnb-right {
+    width: 376px;
+    line-height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.gnb-left li, .gnb-right li{
+    width: 160px;
+    height: 80px;
+}
+
+.gnb-left li a, .gnb-right li a {
+    color: #000;
+}
+
+
+.dp2 {
+    width: 160px;
+    background: #fff;
+    padding-bottom: 8px;
+    display: none;
+
+}
+
+.dp2 li {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.dp2 li a {
+    color: #29518D;
+}
+
+.gnb-sidemenu {
+    width: 144px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: space-between;
+    right: 4%;
+    flex-wrap: wrap;
+}
+
+.gnb-icon {
+    width: 40px;
+    height: auto;
+    filter: invert(30%) sepia(26%) saturate(1415%) hue-rotate(177deg) brightness(90%) contrast(92%);
+}
+
+
+/* main banner */
+ 
+.main-visual {
+    width: 1920px;
+    height: 920px;
+    overflow: hidden;   
+}
+
+.main-visual-slide{
+    position: relative;
+}
+
+.banner-contetns {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.banner-text-box {
+    height: 512px;
+    z-index: 9999;
+    position: absolute;
+    top: 184px;
+    left: 184px;
+}
+
+
+.slide-1 h2 {
+    font-size: 64px;
+    color: #fff;
+    position: absolute;
+    top: 248px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.slide-2 .banner-text-box h2 {
+    color: #06378A;
+}
+.slide-2 .banner-text-box .
